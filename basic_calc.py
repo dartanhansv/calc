@@ -3,14 +3,14 @@ A calculator that performs basic arithmetic operations
 '''
 
 # Greating
-print("Welcome to the Basic_Calc!")
+print("\n Welcome to the Basic_Calc!\n")
 
 # Get numbers from the user
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
 # Get the operation
-print("Choose an arithmetic operation: (+), (-), (*), or (/)")
+print("\nChoose an arithmetic operation: (+), (-), (*), or (/)")
 operation = input("Enter the operation: ")
 
 # Perform the calculation
@@ -29,5 +29,8 @@ elif operation == "/":
         print(f"The result is: {result}")
     else:
         print("Error: Division by zero is not allowed!")
+
 else:
     print("Invalid operation")
+
+print(f"The result is: {result}")
