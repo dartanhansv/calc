@@ -12,6 +12,7 @@ num2 = float(input("Enter the second number: "))
 # Get the operation
 print("\nChoose an arithmetic operation: (+), (-), (*), or (/)")
 operation = input("Enter the operation: ")
+print("\n")
 
 # Perform the calculation
 if operation == "+":
